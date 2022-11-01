@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&display=swap');
+:root {
+    --defualtColor: #218c74;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--defualtColor);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+}
+
+img {
+    margin-top: 40px;
+    width: 170px;
+    height: 160px;
+}
+
+#cowbell {
+    width: 20rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.quate-container {
+    margin: 100px 0;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quate-container > hr {
+    width: 5rem;
+    height: 0.3rem;
+    background-color: azure;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.author {
+    margin: 15px;
+    color: #82d5ddd3;
+}
